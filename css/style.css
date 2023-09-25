@@ -14,9 +14,21 @@
     --color-itsfree:#fdc15f;
 }
 /* UTILITIES */
-
+.px-10{
+    padding: 0px 10px;
+}
+.py-10{
+    padding: 10px 0px;
+}
+.pd-10{
+    padding: 10px;
+}
 /* FLEX UTILITIES */
-
+.d-flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* HEADER */
 nav{
     background-color: var(--color-secondary);
