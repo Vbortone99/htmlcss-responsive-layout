@@ -46,6 +46,7 @@ nav{
 }
 
 /* MAIN */
+/* INFO SECTION */
 .info-card{
     background-color: var(--color-info-bg);
     margin: 20px 0px;
@@ -53,4 +54,31 @@ nav{
 #phone{
     width: 100px;
     display: block;
+}
+
+/* PLANNING SECTION */
+#planning{
+    background-color: var(--color-primary);
+    padding: 20px;
+}
+#plan-img-1{
+    width: 60%;
+}
+#plan-img-1 img{
+    width: 100%;
+}
+.planning-card{
+    width: 60%;
+    background-color: white;
+}
+.p-card-content{
+    width: 70%;
+}
+.p-card-content img{
+    width: 100%;
+}
+.bg-violet{
+    background-color:var(--color-primary) ;
+    border-radius: 50%;
+    padding: 5px;
 }
