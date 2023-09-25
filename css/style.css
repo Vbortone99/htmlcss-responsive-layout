@@ -8,12 +8,18 @@
 :root{
     --color-primary:#9792e4;
     --color-secondary:#0084fd;
+    --color-info-bg:#b5ddff;
     --color-light:#ffffff;
     --color-dark-text:#516372;
     --color-footer:#333333;
     --color-itsfree:#fdc15f;
 }
 /* UTILITIES */
+.container{
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
 .px-10{
     padding: 0px 10px;
 }
@@ -29,7 +35,22 @@
     justify-content: space-between;
     align-items: center;
 }
+.d-flex-column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* HEADER */
 nav{
     background-color: var(--color-secondary);
+}
+
+/* MAIN */
+.info-card{
+    background-color: var(--color-info-bg);
+    margin: 20px 0px;
+}
+#phone{
+    width: 100px;
+    display: block;
 }
