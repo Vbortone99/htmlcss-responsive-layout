@@ -1,5 +1,23 @@
+/* CSS RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* COLORS PALETTE */
+:root{
+    --color-primary:#9792e4;
+    --color-secondary:#0084fd;
+    --color-light:#ffffff;
+    --color-dark-text:#516372;
+    --color-footer:#333333;
+    --color-itsfree:#fdc15f;
+}
+/* UTILITIES */
+
+/* FLEX UTILITIES */
+
+/* HEADER */
+nav{
+    background-color: var(--color-secondary);
 }
